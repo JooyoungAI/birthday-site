@@ -105,8 +105,8 @@
 
 /* Birthday Content Styles */
 .birthday-content {
-  width: 100%;
-  max-width: 800px;
+  width: 95%;
+  max-width: 1200px;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(15px);
   border-radius: 20px;
