@@ -82,7 +82,7 @@ function App() {
             height="100%"
             style={{ position: 'absolute', top: 0, left: 0 }}
             wrapper={({ children }) => (
-              <div style={{ position: 'relative', paddingTop: '56.25%' }}>
+              <div style={{ position: 'relative', paddingTop: '56.25%', width: '100%' }}>
                 {children}
                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: -1 }}>
                   <span className="video-placeholder">Your awesome video will go here!</span>
