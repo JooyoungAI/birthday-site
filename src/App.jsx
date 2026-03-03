@@ -75,7 +75,7 @@ function App() {
         <h1 className="birthday-title">Happy Birthday! 🎂🥳</h1>
         <div className="video-container">
           <ReactPlayer
-            url='https://gemini.google.com/share/7a10e46123ff'
+            url='https://streamable.com/nmg1z3'
             playing={false}
             controls={true}
             width="100%"
