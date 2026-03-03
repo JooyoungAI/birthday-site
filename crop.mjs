@@ -8,7 +8,7 @@ async function generateFavicon() {
         await sharp(inputImagePath)
             .resize(256, 256, {
                 fit: 'cover',
-                position: sharp.strategy.attention // Smart crop focusing on main subject (the face)
+                position: 'top' // Shift the crop upwards to see more of the face
             })
             .toFile(outputPath);
         console.log('Successfully created face favicon!');
