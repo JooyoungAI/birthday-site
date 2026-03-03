@@ -75,7 +75,7 @@ function App() {
         <h1 className="birthday-title">Happy Birthday! 🎂🥳</h1>
         <div className="video-container">
           <ReactPlayer
-            url='https://your-video-link.com/video.mp4'
+            url='https://gemini.google.com/share/7a10e46123ff'
             playing={false}
             controls={true}
             width="100%"
